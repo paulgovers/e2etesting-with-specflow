@@ -45,6 +45,11 @@
 
     
     <PackageReference Include="SpecFlow.xUnit" Version="3.9.8" />
+
+    
+
+    
+    <PackageReference Include="WebDriverManager" Version="2.12.1" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     

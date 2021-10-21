@@ -19,7 +19,12 @@ namespace PG.E2ETests.Helper
 
             private IWebDriver CreateWebDriver()
             {
-                return new ChromeDriver();
+                ChromeOptions option = new ChromeOptions();
+                option.AddArguments("--headless");
+                option.AddArguments("--window-size=1920,1200");
+                option.AddArguments("--disable-gpu");
+                
+                return new ChromeDriver(option);
             }
 
             public IWebDriver GetWebDriver()

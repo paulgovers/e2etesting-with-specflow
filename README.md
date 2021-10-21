@@ -11,7 +11,7 @@ Best practice E2E testing with Specflow and Selenium
 With F12 you go directly to the step definition
 
 # Build and Test
-Test->Run all test
+Visual studio: Test->Run all test
 
 # LivingDoc
 Navigate to the output directory of the SpecFlow project. Run the LivingDoc CLI by using the below command to generate the HTML report.
@@ -22,3 +22,4 @@ Open the generated HTML(LivingDoc.html) with your favorite browser. The HTML fil
 
 # Handy
 https://github.com/rosolko/WebDriverManager.Net
+
